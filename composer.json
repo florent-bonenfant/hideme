@@ -1,0 +1,18 @@
+{
+    "description": "Anonymisation des projets utilisant Eloquent",
+    "name": "globalis/hideme",
+    "type": "library",
+    "homepage": "https://globalis-ms.com",
+    "require-dev": {
+        "fzaninotto/faker": "^1.9"
+    },
+    "require": {
+        "php": ">=5.6",
+        "illuminate/database": ">=5.8.36"
+    },
+    "autoload": {
+       "psr-4": {
+           "HideMe\\": "src/"
+       }
+    }
+}
